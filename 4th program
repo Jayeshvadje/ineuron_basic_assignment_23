@@ -1,0 +1,9 @@
+#Create a function that sorts a list and removes all duplicate items from it.
+def removeDup(a):
+        duplicates=[]
+        for i in a:
+            if a.count(i) > 1:
+                if i not in duplicates:
+                    duplicates.append(i)
+        print("duplicate charaters in strings are = ", duplicates)
+removeDup([1,2,3,4,6,3])
