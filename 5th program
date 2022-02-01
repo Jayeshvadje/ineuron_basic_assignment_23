@@ -1,0 +1,7 @@
+#Create a function that returns the mean of all digits.
+import statistics
+def me(x):
+    l=x.split()
+    a=statistics.mean(l)
+    return a
+print(me(42))
