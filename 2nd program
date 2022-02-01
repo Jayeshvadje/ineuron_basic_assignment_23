@@ -1,0 +1,6 @@
+# Given a string of numbers separated by a comma and space, return the product of the
+# numbers.
+
+def product():
+    lst = list(map(int, input("Enter comma separated values: ").split(",")))
+print(product())
