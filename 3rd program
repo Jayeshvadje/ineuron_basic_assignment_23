@@ -1,0 +1,8 @@
+# Create a function that squares every digit of a number.
+def squares(num):
+    s = 0
+    for i in str(num):
+        y = int(i) * int(i)
+        s += y
+    return s
+print(squares(4))
