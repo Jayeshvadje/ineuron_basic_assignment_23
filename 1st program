@@ -1,0 +1,14 @@
+# Create a function that takes a number as an argument and returns True or False depending
+# on whether the number is symmetrical or not. A number is symmetrical when it is the same as
+# its reverse.
+def symmetical(x):
+    z=x[::-1]
+    if x==z:
+        return True
+    else:
+        return False
+
+
+print(symmetical("220122"))
+
+
